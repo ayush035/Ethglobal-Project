@@ -5,7 +5,7 @@ import { ethers } from "ethers";
 import PostCard from "../components/PostCard";
 
 // ✅ Contract details
-const CONTRACT_ADDRESS = "0xA46B02adA701EB34Ad9AC8feB786F575208a4c46";
+const CONTRACT_ADDRESS = "0x0639811A0d4cCff3CAc61C78303839f50156470c";
 
 const abi = [
   {
@@ -65,10 +65,10 @@ export default function FeedPage() {
   };
 
   return (
-    <div className="p-6 max-w-3xl mx-auto">
+    <div className="p-6 max-w-7xl mx-auto px-12">
       <h1 className="text-3xl font-bold text-white mb-6">Discover </h1>
 
-      <div className="space-y-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-8">
         {posts.length === 0 ? (
           <p className="text-white">No posts yet.</p>
         ) : (

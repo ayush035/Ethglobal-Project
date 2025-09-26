@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar';
 import SuccessModal from '@/components/SuccessModal';
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 
-const contractAddress = "0x2e69E6C535Ae490733B7831F46415f9470f89B93";
+const contractAddress = "0xC54E78206Ac0CDA086Ab121Ca8EFe8Bc23eC71ec";
 const contractABI = 
 	[
     {

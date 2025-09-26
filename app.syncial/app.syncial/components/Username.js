@@ -5,7 +5,7 @@ import { ethers } from "ethers";
 import Navbar from "../components/Navbar"; // adjust path if needed
 
 // 0G Galileo Testnet contract details
-const CONTRACT_ADDRESS = "0x2e69E6C535Ae490733B7831F46415f9470f89B93";
+const CONTRACT_ADDRESS = "0xC54E78206Ac0CDA086Ab121Ca8EFe8Bc23eC71ec";
 const ABI = [
   {
     inputs: [{ internalType: "address", name: "_wallet", type: "address" }],

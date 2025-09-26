@@ -5,7 +5,7 @@ import { ethers } from "ethers";
 import PostCard from "../components/PostCard";
 
 // ✅ Contract details
-const CONTRACT_ADDRESS = "0x0639811A0d4cCff3CAc61C78303839f50156470c";
+const CONTRACT_ADDRESS = "0x25C66b57149495A196dA2c1180a02dB847493460";
 
 const abi = [
   {

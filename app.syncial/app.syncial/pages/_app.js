@@ -13,7 +13,7 @@ import {
 } from '@rainbow-me/rainbowkit';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { WagmiProvider, http } from 'wagmi'
-import { metis, sepolia, hederaTestnet, citreaTestnet } from 'wagmi/chains'
+import { metis, sepolia, hederaTestnet } from 'wagmi/chains'
 import { getDefaultConfig, } from '@rainbow-me/rainbowkit'
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
@@ -40,9 +40,9 @@ import Navbar from '@/components/Navbar';
  const config = getDefaultConfig({
   appName: 'Syncial',
   projectId: 'e789aa4ef8fbaccc12ac0cca7d97b01d',
-  chains: [citreaTestnet],
+  chains: [hederaTestnet],
   transports: {
-    [citreaTestnet.id]: http(),
+    [hederaTestnet.id]: http(),
   }
 }) 
 

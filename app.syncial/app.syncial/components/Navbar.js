@@ -61,21 +61,33 @@ export default function Navbar() {
 
       {/* Mobile Menu (drawer) */}
       {mobileMenuOpen && (
-  <div className="bg-[#16030d] text-white p-4 md:hidden space-y-4">
+  <div className="bg-black text-white p-4 md:hidden space-y-4 ">
     {/* Mobile Nav Links */}
-    <div className="flex flex-col space-y-3 text-lg font-semibold">
-      <Link href="/discover" className="text-[#ED3968] hover:text-white">
-        Discover
-      </Link>
-      <Link href="/dashboard" className="text-[#ED3968] hover:text-white">
-        Dashboard
-      </Link>
-    </div>
+    <div className="flex flex-col  space-y-3 text-lg font-semibold text-center">
+  <hr/>
+
+  <Link href="/discover" className="text-[#ED3968] hover:text-white">
+    Discover
+  </Link>
+  <hr/>
+  
+  <Link href="/dashboard" className="text-[#ED3968] hover:text-white">
+    Dashboard
+  </Link>
+  <hr  />
+  
+  <Link href="/predict" className="text-[#ED3968] hover:text-white">
+    Predict
+  </Link>
+  <hr  />
+</div>
+
 
     {/* Mobile Connect Button */}
-    <div>
+    <div className="flex flex-col items-center">
       <ConnectButton />
     </div>
+    <hr/>
 
     {/* Mobile Search Bar */}
     {/* <div className="flex items-center bg-[#16030d] rounded-xl w-full px-2 h-11 outline outline-1 outline-[#39071f]">

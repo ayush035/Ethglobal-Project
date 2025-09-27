@@ -65,16 +65,17 @@ export default function Navbar() {
     {/* Mobile Nav Links */}
     <div className="flex flex-col  space-y-3 text-lg font-semibold text-center">
   <hr/>
+  <Link href="/dashboard" className="text-[#ED3968] hover:text-white">
+    Dashboard
+  </Link>
+  <hr  />
 
   <Link href="/discover" className="text-[#ED3968] hover:text-white">
     Discover
   </Link>
   <hr/>
   
-  <Link href="/dashboard" className="text-[#ED3968] hover:text-white">
-    Dashboard
-  </Link>
-  <hr  />
+  
   
   <Link href="/predict" className="text-[#ED3968] hover:text-white">
     Predict

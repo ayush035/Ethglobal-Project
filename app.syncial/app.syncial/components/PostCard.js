@@ -86,7 +86,7 @@ export default function PostCard({ post, showAuthor = true }) {
               </div>
             </div>
             
-            <div className="flex items-center space-x-2">
+            {/* <div className="flex items-center space-x-2">
               <button
                 onClick={() => openInNewTab(`https://explorer.lighthouse.storage/ipfs/${post.image}`)}
                 className="text-gray-400 hover:text-gray-600"
@@ -94,7 +94,7 @@ export default function PostCard({ post, showAuthor = true }) {
               >
                 <ExternalLink className="h-4 w-4" />
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       )}
